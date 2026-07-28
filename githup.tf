@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "example" {
