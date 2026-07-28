@@ -1,11 +1,13 @@
 provider "aws" {
-  region = "ap-south-2"
+  region     = "ap-south-2"
+  access_key = "AKIA4NFRL2ZWLM24KK54"
+  secret_key = "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"
 }
 
 resource "aws_instance" "myec2" {
-    ami = "ami-09f2c8c69c78c7b7e"
-    instance_type = "t3.micro"
+  ami           = "ami-0b2ac1bf38835e348"
+  instance_type = "t3.micro"
   tags = {
-    Name = "myfirstec2"
+    name = "webserver"
   }
-} 
+}
