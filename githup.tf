@@ -7,9 +7,9 @@ terraform {
   }
 }
 
-provider "github" {
-  token = var.github_token
-}
+# provider "github" {
+  #token = var.github_token
+#}
 
 #resource "github_repository" "example" {
  # name        = "example"
