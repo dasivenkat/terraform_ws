@@ -7,13 +7,13 @@ terraform {
   }
 }
 
-provider "github" {
-  token = "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"
-}
+#provider "github" {
+ # token = "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"
+#}
 
-resource "github_repository" "example" {
-  name        = "example"
-  description = "My awesome codebase"
+#resource "github_repository" "example" {
+ # name        = "example"
+  #description = "My awesome codebase"
 
-  visibility = "public"
-}
+  #visibility = "public"
+#}
